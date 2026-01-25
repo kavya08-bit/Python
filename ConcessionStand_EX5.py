@@ -19,5 +19,5 @@ while True:
         cart.append(food)
 
 for food in cart:
-    total = total + menu.get(food)
-    print(food,end=" ")
+    total += menu.get(food)
+    print(food, end=" ")
